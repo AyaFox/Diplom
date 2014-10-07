@@ -19,6 +19,10 @@
 		4F394B6C19E3ABEB00855440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F394B5419E3ABEB00855440 /* UIKit.framework */; };
 		4F394B7419E3ABEB00855440 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F394B7219E3ABEB00855440 /* InfoPlist.strings */; };
 		4F394B7619E3ABEB00855440 /* FBIAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F394B7519E3ABEB00855440 /* FBIAppTests.m */; };
+		4F394B8419E3AEDA00855440 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F394B8219E3AEDA00855440 /* StartViewController.m */; };
+		4F394B8519E3AEDA00855440 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F394B8319E3AEDA00855440 /* StartViewController.xib */; };
+		4F394B8A19E3B06200855440 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F394B8819E3B06200855440 /* SignInViewController.m */; };
+		4F394B8B19E3B06200855440 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F394B8919E3B06200855440 /* SignInViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		4F394B7119E3ABEB00855440 /* FBIAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBIAppTests-Info.plist"; sourceTree = "<group>"; };
 		4F394B7319E3ABEB00855440 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F394B7519E3ABEB00855440 /* FBIAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBIAppTests.m; sourceTree = "<group>"; };
+		4F394B8119E3AEDA00855440 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		4F394B8219E3AEDA00855440 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		4F394B8319E3AEDA00855440 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		4F394B8719E3B06200855440 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		4F394B8819E3B06200855440 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		4F394B8919E3B06200855440 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,7 @@
 		4F394B5619E3ABEB00855440 /* FBIApp */ = {
 			isa = PBXGroup;
 			children = (
+				4F394B7F19E3AE5600855440 /* ViewControllers */,
 				4F394B5F19E3ABEB00855440 /* AppDelegate.h */,
 				4F394B6019E3ABEB00855440 /* AppDelegate.m */,
 				4F394B6219E3ABEB00855440 /* Images.xcassets */,
@@ -142,6 +153,35 @@
 				4F394B7219E3ABEB00855440 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F394B7F19E3AE5600855440 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F394B8619E3B01300855440 /* SignInViewController */,
+				4F394B8019E3AE8600855440 /* StartViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F394B8019E3AE8600855440 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F394B8119E3AEDA00855440 /* StartViewController.h */,
+				4F394B8219E3AEDA00855440 /* StartViewController.m */,
+				4F394B8319E3AEDA00855440 /* StartViewController.xib */,
+			);
+			name = StartViewController;
+			sourceTree = "<group>";
+		};
+		4F394B8619E3B01300855440 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F394B8719E3B06200855440 /* SignInViewController.h */,
+				4F394B8819E3B06200855440 /* SignInViewController.m */,
+				4F394B8919E3B06200855440 /* SignInViewController.xib */,
+			);
+			name = SignInViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F394B8B19E3B06200855440 /* SignInViewController.xib in Resources */,
 				4F394B5B19E3ABEB00855440 /* InfoPlist.strings in Resources */,
 				4F394B6319E3ABEB00855440 /* Images.xcassets in Resources */,
+				4F394B8519E3AEDA00855440 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F394B8A19E3B06200855440 /* SignInViewController.m in Sources */,
+				4F394B8419E3AEDA00855440 /* StartViewController.m in Sources */,
 				4F394B6119E3ABEB00855440 /* AppDelegate.m in Sources */,
 				4F394B5D19E3ABEB00855440 /* main.m in Sources */,
 			);
