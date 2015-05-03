@@ -2,22 +2,17 @@
 //  AppDelegate.m
 //  FBIApp
 //
-//  Created by Яна on 06.10.14.
-//  Copyright (c) 2014 Yana. All rights reserved.
+//  Created by Яна on 18.04.15.
+//
 //
 
 #import "AppDelegate.h"
-#import "StartViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[StartViewController new]];
-    
-    self.window.rootViewController = navigationController;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

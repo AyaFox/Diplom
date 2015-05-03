@@ -2,8 +2,8 @@
 //  FBIAppTests.m
 //  FBIAppTests
 //
-//  Created by Яна on 06.10.14.
-//  Copyright (c) 2014 Yana. All rights reserved.
+//  Created by Яна on 18.04.15.
+//
 //
 
 #import <XCTest/XCTest.h>
