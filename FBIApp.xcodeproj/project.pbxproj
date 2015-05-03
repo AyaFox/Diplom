@@ -109,6 +109,8 @@
 		4F0CFACE1AE2FE300097A2E6 /* FBIApp */ = {
 			isa = PBXGroup;
 			children = (
+				970F42891AF60DE300B458D6 /* Models */,
+				970F42881AF60DD200B458D6 /* Controllers */,
 				4F0CFAD71AE2FE320097A2E6 /* AppDelegate.h */,
 				4F0CFAD81AE2FE320097A2E6 /* AppDelegate.m */,
 				4F0CFADA1AE2FE320097A2E6 /* Images.xcassets */,
@@ -145,6 +147,20 @@
 				4F0CFAEA1AE2FE320097A2E6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		970F42881AF60DD200B458D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		970F42891AF60DE300B458D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +456,7 @@
 				4F0CFAF31AE2FE330097A2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F0CFAF41AE2FE330097A2E6 /* Build configuration list for PBXNativeTarget "FBIAppTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +465,7 @@
 				4F0CFAF61AE2FE330097A2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
