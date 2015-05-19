@@ -20,6 +20,16 @@
 		4F0CFAEC1AE2FE320097A2E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CFAEA1AE2FE320097A2E6 /* InfoPlist.strings */; };
 		4F0CFAEE1AE2FE320097A2E6 /* FBIAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CFAED1AE2FE320097A2E6 /* FBIAppTests.m */; };
 		4F0CFAF81AE2FE7F0097A2E6 /* Structure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F0CFAF71AE2FE7F0097A2E6 /* Structure.plist */; };
+		972EA0111AFF724F007DDC5D /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA0101AFF724F007DDC5D /* Content.m */; };
+		972EA0151AFF7268007DDC5D /* ContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA0141AFF7268007DDC5D /* ContentType.m */; };
+		972EA01B1AFF72CF007DDC5D /* SubCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA01A1AFF72CF007DDC5D /* SubCategory.m */; };
+		972EA01D1AFF73A8007DDC5D /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972EA01C1AFF73A8007DDC5D /* Start.storyboard */; };
+		972EA01F1AFF76CA007DDC5D /* Teacher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972EA01E1AFF76CA007DDC5D /* Teacher.storyboard */; };
+		972EA0221AFF76EB007DDC5D /* Student.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972EA0211AFF76EB007DDC5D /* Student.storyboard */; };
+		972EA0241AFF76FA007DDC5D /* Guest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972EA0231AFF76FA007DDC5D /* Guest.storyboard */; };
+		972EA0281AFF7A0A007DDC5D /* StoryboardSwitchSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA0271AFF7A0A007DDC5D /* StoryboardSwitchSegue.m */; };
+		972EA02C1AFF8520007DDC5D /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA02B1AFF8520007DDC5D /* StartViewController.m */; };
+		972EA02F1AFF86E0007DDC5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA02E1AFF86E0007DDC5D /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,22 @@
 		4F0CFAEB1AE2FE320097A2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F0CFAED1AE2FE320097A2E6 /* FBIAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBIAppTests.m; sourceTree = "<group>"; };
 		4F0CFAF71AE2FE7F0097A2E6 /* Structure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Structure.plist; sourceTree = "<group>"; };
+		972EA00F1AFF724F007DDC5D /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		972EA0101AFF724F007DDC5D /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		972EA0131AFF7268007DDC5D /* ContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentType.h; sourceTree = "<group>"; };
+		972EA0141AFF7268007DDC5D /* ContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentType.m; sourceTree = "<group>"; };
+		972EA0191AFF72CF007DDC5D /* SubCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCategory.h; sourceTree = "<group>"; };
+		972EA01A1AFF72CF007DDC5D /* SubCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCategory.m; sourceTree = "<group>"; };
+		972EA01C1AFF73A8007DDC5D /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		972EA01E1AFF76CA007DDC5D /* Teacher.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Teacher.storyboard; sourceTree = "<group>"; };
+		972EA0211AFF76EB007DDC5D /* Student.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Student.storyboard; sourceTree = "<group>"; };
+		972EA0231AFF76FA007DDC5D /* Guest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guest.storyboard; sourceTree = "<group>"; };
+		972EA0261AFF7A0A007DDC5D /* StoryboardSwitchSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardSwitchSegue.h; sourceTree = "<group>"; };
+		972EA0271AFF7A0A007DDC5D /* StoryboardSwitchSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardSwitchSegue.m; sourceTree = "<group>"; };
+		972EA02A1AFF8520007DDC5D /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		972EA02B1AFF8520007DDC5D /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		972EA02D1AFF86E0007DDC5D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		972EA02E1AFF86E0007DDC5D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +105,10 @@
 		4F0CFABC1AE2FE2E0097A2E6 = {
 			isa = PBXGroup;
 			children = (
+				972EA0231AFF76FA007DDC5D /* Guest.storyboard */,
+				972EA0211AFF76EB007DDC5D /* Student.storyboard */,
+				972EA01E1AFF76CA007DDC5D /* Teacher.storyboard */,
+				972EA01C1AFF73A8007DDC5D /* Start.storyboard */,
 				4F0CFACE1AE2FE300097A2E6 /* FBIApp */,
 				4F0CFAE71AE2FE320097A2E6 /* FBIAppTests */,
 				4F0CFAC71AE2FE2F0097A2E6 /* Frameworks */,
@@ -109,6 +139,7 @@
 		4F0CFACE1AE2FE300097A2E6 /* FBIApp */ = {
 			isa = PBXGroup;
 			children = (
+				972EA0251AFF7975007DDC5D /* Segues */,
 				970F42891AF60DE300B458D6 /* Models */,
 				970F42881AF60DD200B458D6 /* Controllers */,
 				4F0CFAD71AE2FE320097A2E6 /* AppDelegate.h */,
@@ -152,6 +183,7 @@
 		970F42881AF60DD200B458D6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				972EA0291AFF84E5007DDC5D /* LoginViewController */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -159,8 +191,58 @@
 		970F42891AF60DE300B458D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				972EA0121AFF7252007DDC5D /* ContentType */,
+				972EA00E1AFF7233007DDC5D /* Content */,
+				972EA00D1AFF720D007DDC5D /* SubCategory */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		972EA00D1AFF720D007DDC5D /* SubCategory */ = {
+			isa = PBXGroup;
+			children = (
+				972EA0191AFF72CF007DDC5D /* SubCategory.h */,
+				972EA01A1AFF72CF007DDC5D /* SubCategory.m */,
+			);
+			name = SubCategory;
+			sourceTree = "<group>";
+		};
+		972EA00E1AFF7233007DDC5D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				972EA00F1AFF724F007DDC5D /* Content.h */,
+				972EA0101AFF724F007DDC5D /* Content.m */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		972EA0121AFF7252007DDC5D /* ContentType */ = {
+			isa = PBXGroup;
+			children = (
+				972EA0131AFF7268007DDC5D /* ContentType.h */,
+				972EA0141AFF7268007DDC5D /* ContentType.m */,
+			);
+			name = ContentType;
+			sourceTree = "<group>";
+		};
+		972EA0251AFF7975007DDC5D /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				972EA0261AFF7A0A007DDC5D /* StoryboardSwitchSegue.h */,
+				972EA0271AFF7A0A007DDC5D /* StoryboardSwitchSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		972EA0291AFF84E5007DDC5D /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				972EA02A1AFF8520007DDC5D /* StartViewController.h */,
+				972EA02B1AFF8520007DDC5D /* StartViewController.m */,
+				972EA02D1AFF86E0007DDC5D /* LoginViewController.h */,
+				972EA02E1AFF86E0007DDC5D /* LoginViewController.m */,
+			);
+			name = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +319,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972EA0221AFF76EB007DDC5D /* Student.storyboard in Resources */,
 				4F0CFAD31AE2FE310097A2E6 /* InfoPlist.strings in Resources */,
 				4F0CFADB1AE2FE320097A2E6 /* Images.xcassets in Resources */,
+				972EA01F1AFF76CA007DDC5D /* Teacher.storyboard in Resources */,
+				972EA0241AFF76FA007DDC5D /* Guest.storyboard in Resources */,
 				4F0CFAF81AE2FE7F0097A2E6 /* Structure.plist in Resources */,
+				972EA01D1AFF73A8007DDC5D /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972EA02F1AFF86E0007DDC5D /* LoginViewController.m in Sources */,
 				4F0CFAD91AE2FE320097A2E6 /* AppDelegate.m in Sources */,
+				972EA0151AFF7268007DDC5D /* ContentType.m in Sources */,
+				972EA0281AFF7A0A007DDC5D /* StoryboardSwitchSegue.m in Sources */,
+				972EA0111AFF724F007DDC5D /* Content.m in Sources */,
+				972EA02C1AFF8520007DDC5D /* StartViewController.m in Sources */,
+				972EA01B1AFF72CF007DDC5D /* SubCategory.m in Sources */,
 				4F0CFAD51AE2FE310097A2E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
