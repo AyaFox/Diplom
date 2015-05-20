@@ -180,9 +180,10 @@
 					<key>title</key>
 					<string>Новости</string>
 					<key>content</key>
-					<dict/>
-					<key>type</key>
-					<string>table</string>
+					<dict>
+						<key>type</key>
+						<string>table</string>
+					</dict>
 				</dict>
 				<dict>
 					<key>image</key>
@@ -190,8 +191,7 @@
 					<key>title</key>
 					<string>Профком</string>
 					<key>subCategories</key>
-					<dict>
-						<key>New item</key>
+					<array>
 						<dict>
 							<key>image</key>
 							<string></string>
@@ -203,18 +203,18 @@
 								<string>url</string>
 							</dict>
 						</dict>
-						<key>New item - 2</key>
 						<dict>
 							<key>image</key>
 							<string></string>
 							<key>title</key>
 							<string>Телефоны</string>
 							<key>content</key>
-							<dict/>
-							<key>type</key>
-							<string>table</string>
+							<dict>
+								<key>type</key>
+								<string>table</string>
+							</dict>
 						</dict>
-					</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>image</key>
