@@ -30,6 +30,7 @@
 		972EA0281AFF7A0A007DDC5D /* StoryboardSwitchSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA0271AFF7A0A007DDC5D /* StoryboardSwitchSegue.m */; };
 		972EA02C1AFF8520007DDC5D /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA02B1AFF8520007DDC5D /* StartViewController.m */; };
 		972EA02F1AFF86E0007DDC5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972EA02E1AFF86E0007DDC5D /* LoginViewController.m */; };
+		975C6EA11B0B3E43000F62A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0CFAD41AE2FE310097A2E6 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975C6EA11B0B3E43000F62A8 /* main.m in Sources */,
 				4F0CFAEE1AE2FE320097A2E6 /* FBIAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

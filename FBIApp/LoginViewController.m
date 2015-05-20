@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    testRole.text = [self valueForKeyPath:@"userRole"];
 }
 
 - (void)didReceiveMemoryWarning {
