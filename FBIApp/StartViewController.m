@@ -7,6 +7,7 @@
 //
 
 #import "StartViewController.h"
+#import "StoryboardSwitchSegue.h"
 
 @interface StartViewController ()
 
@@ -24,9 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)prepareForSegue:(StoryboardSwitchSegue *)segue sender:(id)sender
 {
-
+    if ([segue.identifier isEqualToString:@"SwitchToGuestSegue"]) {
+        segue.storyboardIdentificator = @"Guest";
+    }
 }
 
 @end

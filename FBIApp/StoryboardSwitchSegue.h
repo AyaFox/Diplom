@@ -10,4 +10,6 @@
 
 @interface StoryboardSwitchSegue : UIStoryboardSegue
 
+@property (copy) NSString *storyboardIdentificator;
+
 @end
